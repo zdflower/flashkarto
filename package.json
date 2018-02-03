@@ -1,0 +1,16 @@
+{
+  "name": "super-mojosa-flash-karto",
+  "version": "0.1.0",
+  "private": false,
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.13"
+  },
+  "scripts": {
+    "start": "node node_modules/react-scripts/bin/react-scripts.js start",
+    "build": "node node_modules/react-scripts/bin/react-scripts.js build",
+    "test": "node node_modules/react-scripts/bin/react-scripts.js test --env=jsdom",
+    "eject": "node node_modules/react-scripts/bin/react-scripts.js eject"
+  }
+}
