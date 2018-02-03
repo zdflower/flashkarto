@@ -27,14 +27,6 @@
   bottom: 10%;
 }
 
-.front {
-  visibility: visible;
-}
-
-.back {
-  visibility: hidden;
-}
-
 .explanation {
   /* background-color: lightgrey; */
   width: 80%;
