@@ -8,9 +8,39 @@ import Flashcard from './Flashcard';
 //
 import cards from './cards.json';
 
-const card = cards[0]; // Esto en un futuro vendrá del servidor.
-
+// const card = cards[0]; // Esto en un futuro vendrá del servidor.
+// i sería el índice de la actual tarjeta
+// showing es la cara que se está mostrando
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      i: 0,
+      showing: 'front'
+    };
+  }
+
+  nextCard() {
+    // Si no se llegó a la última tarjeta de cards entonces sumar 1 a i
+    if (this.state.i < cards.length - 1) this.setState({i : this.state.i + 1, showing: 'front'})
+  }
+
+  prevCard() {
+    if (this.state.i > 0) this.setState({i : this.state.i - 1, showing: 'front'})
+  }
+
+  showFront() {
+    this.setState({
+      showing: 'front'
+    })
+  }
+
+  showBack() {
+    this.setState({
+      showing: 'back'
+    })
+  }
+
   render() {
   // Esto sería la página principal
     return (
@@ -18,7 +48,11 @@ class App extends Component {
         <div className="App-header">
           <h2>Welcome to Super Mojosa Flash Karto</h2>
         </div>
-        <Flashcard card={card}/>
+        <button onClick={() => this.prevCard()}>Previous</button>
+        <button onClick={() => this.nextCard()}>Next</button>
+        <button onClick={() => this.showFront()}>Front</button>
+        <button onClick={() => this.showBack()}>Back</button>
+        <Flashcard card={cards[this.state.i]} showing={this.state.showing}/>
       </div>
     );
   }
