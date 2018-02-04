@@ -39,7 +39,7 @@ From the main (and only) page you can watch every card in sequence from the firs
 ## Resources from wich I learn for this project (thanks to all the people who make them):
 
 - Beau Carnes youtube video [React Basics](https://www.youtube.com/watch?v=QqLkkBKVDyM&list=PLWKjhJtqVAbmoiNlqLJg1gxEjEuKHHcn_&index=45)
-- CS50 2017 seminar about React.
+- CS50 seminar [Frontend development with React](https://www.youtube.com/embed/3HMtarQAt3A?autoplay=1&rel=0)
 - [Thinking in React](https://facebook.github.io/react/docs/thinking-in-react.html)
 - [React docs](https://facebook.github.io/react/docs/hello-world.html)
 - [React.js for the visual learner](https://medium.com/coding-artist/react-js-for-the-visual-learner-chapter-1-what-is-this-all-about-a0d28cfd33c6) by [Michael Mangialardi](https://medium.com/@michaelmangial1)
