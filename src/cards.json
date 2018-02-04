@@ -3,10 +3,20 @@
     "front": {
       "title": "Monotone sequences theorem",
       "topic": "Calculus",
-      "concept": "What says the monotone sequences theorem?"
+      "concept": "What does it say the monotone sequences theorem?"
     },
     "back": {
       "explanation": "IF a sequence is bounded AND monotone THEN converges (has a limit)."
+    }
+  },
+  {
+    "front": {
+      "title": "Ad baculum",
+      "topic": "Logic",
+      "concept": "Ad baculum fallacy"
+    },
+    "back": {
+      "explanation": "It is an informal fallacy, an invalid argument due to the use or appeal to the force or threat to 'support' a conclusion."
     }
   },
   {
