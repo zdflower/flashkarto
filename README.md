@@ -2,6 +2,8 @@
 
 I am learning about web development and there is a lot to learn. It would be great to know what you think of this little practice project about what I doing wrong (when there is a known better solution), what is missing, etc. Every (non offensive) comment will be really apreciated.
 
+Please visit [Super Mojosa Flash Karto](https://zdflower.github.io/flashkarto/)
+
 ## Description
 This is a super simple, very basic flashcard app, made with React (create-react-app).
 
@@ -36,9 +38,9 @@ From the main (and only) page you can watch every card in sequence from the firs
 - Try other fonts and colors.
 - Who knows...
 
-## Resources from wich I learn for this project (thanks to all the people who make them):
+## Resources from wich I learned for this project (thanks to all the people who make them):
 
-- Beau Carnes youtube video [React Basics](https://www.youtube.com/watch?v=QqLkkBKVDyM&list=PLWKjhJtqVAbmoiNlqLJg1gxEjEuKHHcn_&index=45)
+- Beau Carnes youtube video [React Basics](https://www.youtube.com/watch?v=QqLkkBKVDyM)
 - CS50 seminar [Frontend development with React](https://www.youtube.com/embed/3HMtarQAt3A?autoplay=1&rel=0)
 - [Thinking in React](https://facebook.github.io/react/docs/thinking-in-react.html)
 - [React docs](https://facebook.github.io/react/docs/hello-world.html)
